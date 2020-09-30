@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Administration</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="login/loginstyle.css">
+    </head>
+    <body>
+
+        <nav id="banniere">
+            <img id="logo" src="img/letterh.png" alt="logomha">
+            <div class="banniere2">
+                <a class="active"  href="contact.html" >CONTACT</a>
+                <a href="login.html" >SE CONNECTER</a>
+                <a href ="classement.html" >CLASSEMENT</a>
+                <a href ="sondage1.html" >SONDAGES</a>
+                <a href ="index.html" >ACCUEIL</a>  
+            </div>
+        </nav>
+    
+    
+    
+    
+    
+    
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+    
+            <ul>
+                <li><a href ="index.html" id="pres">ACCUEIL</a></li>
+                <li><a href ="sondage1.html" id="izu">SONDAGES</a></li>
+                <li><a href ="classement.html" id="izu">CLASSEMENT</a></li>
+                <li><a href="login.html"  id="plus">SE CONNECTER</a></li>
+                <li><a href ="contact.html" id="con">CONTACT</a></li>
+    
+            </ul>
+        </div>
+
+        <div id="frm">
+            <form action="" method="POST">
+                <p class="input">
+                    <label for="">Username :</label>
+                    <br>
+                    <input type="text" id="user" name="user">
+                </p>
+
+
+                <p class="input">
+                    <label for="">Password :</label>
+                    <br><br>
+                    <input type="password" id="pass" name="pass">
+                </p>
+
+
+                <p>
+                    <input type="submit" id="btn" value="Login">
+                </p>
+            </form>
+
+        </div>
+        <script src="js/monscript.js"></script>
+    </body>
+</html>

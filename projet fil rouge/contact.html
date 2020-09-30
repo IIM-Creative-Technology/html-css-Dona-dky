@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Dona DENKEY DANDJEIN" content="Projet fil rouge">
+    <title>Hermisonde</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="SHORTCUT ICON" href="img/favicon.ico">
+
+</head>
+<body>
+
+    <nav id="banniere">
+        <img id="logo" src="img/letterh.png" alt="logomha">
+        <div class="banniere2">
+            <a class="active"  href="contact.html" >CONTACT</a>
+            <a href="login.html" >SE CONNECTER</a>
+            <a href ="classement.html" >CLASSEMENT</a>
+            <a href ="sondage1.html" >SONDAGES</a>
+            <a href ="index.html" >ACCUEIL</a>  
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <ul>
+            <li><a href ="index.html" id="pres">ACCUEIL</a></li>
+            <li><a href ="sondage1.html" id="izu">SONDAGES</a></li>
+            <li><a href ="classement.html" id="izu">CLASSEMENT</a></li>
+            <li><a href="login.html"  id="plus">SE CONNECTER</a></li>
+            <li><a href ="contact.html" id="con">CONTACT</a></li>
+
+        </ul>
+    </div>
+
+        <div class="conteneur2"> 
+
+            <div id="scroll_to_top"> 
+                <a href="#top"><img src="index/img/to_top.png" alt="Retourner en haut" /></a> 
+            </div>
+
+
+
+
+            <div class="contact" >
+                <div id="contactez">				
+                    <h2 id="me" >CONTACTEZ MOI</h2>
+                    <hr/>
+
+                    <div class="formulaire">
+
+                        <form method="post">
+                            <label id="nom">Nom *</label>
+                            <br>
+                            <input type="text" name="nom" id="name" required>
+
+                            <br><br>
+
+                            <label for="tel">Téléphone</label>
+                            <br>
+                            <input type="tel" name="tel" id="tel">
+
+                            <br><br>
+
+                            <label for="email">Email *</label>
+                            <br>
+                            <input type="email" name="email" id="email" required>
+
+                            <br><br>
+
+                            <label for="objet">Objet *</label>
+                            <br>
+                            <input type="text" name="objet" id="objet" required>
+
+                            <br><br>
+
+                            <label id="mess">Message *</label>
+                            <br>
+                            <textarea class="input2" name="mess" id="Message" required></textarea>
+
+                            <br><br>
+
+                            <button type="submit" id="bouton">Envoyer !</button>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script src="js/monscript.js"></script>
+</body>
+</html>
